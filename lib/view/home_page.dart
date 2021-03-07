@@ -77,7 +77,7 @@ class _HomePageState extends State<HomePage> {
                         //color
                         Container(
                           width: 10,
-                          height: MediaQuery.of(context).size.height * 0.10,
+                          height: 70,
                           decoration: BoxDecoration(
                               color: e.color,
                               borderRadius: BorderRadius.circular(10)),
@@ -87,8 +87,8 @@ class _HomePageState extends State<HomePage> {
                           alignment: Alignment.centerLeft,
                           margin: EdgeInsets.only(left: 5, right: 5),
                           padding: EdgeInsets.only(left: 5, right: 5),
-                          height: MediaQuery.of(context).size.height * 0.10,
-                          width: MediaQuery.of(context).size.width * 0.90,
+                          height: 70,
+                          width: MediaQuery.of(context).size.width - 38,
                           decoration: BoxDecoration(
                             color: Colors.grey.withOpacity(0.2),
                             borderRadius: BorderRadius.circular(10),
